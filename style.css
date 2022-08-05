@@ -14,21 +14,49 @@ img {
   width: 100%;
 }
 
-
-
-.pg-padding {
-  padding: 0 6vw;
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
 }
 
-.navbar {
+.navbar-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1.075em;
-  padding-bottom: 1.075em;
-  background-color: #000;
+  padding: 1.075em 6vw;
   color: #fff;
   font-size: 1.5em;
+}
+
+.navbar-bottom {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em 0;
+  gap: .25em;
+  color: white;
+  border-top: 1px solid gray;
+}
+
+.navbar-bottom p {
+    margin: 0.75em 0;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: rgb(65, 65, 65);
+}
+
+hr {
+  width:50vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.light-gray {
+  background-color: rgba(0, 0, 0, 0.904);
 }
 
 a {
