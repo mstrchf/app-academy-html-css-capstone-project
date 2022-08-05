@@ -4,4 +4,6 @@ let hiddenLinks = document.querySelector('.navbar-bottom')
 
 menu.addEventListener('click', ()=>{
     hiddenLinks.classList.toggle('bottom-nav-shown')
+    hiddenLinks.classList.toggle('light-gray')
+    navbar.classList.toggle('light-gray')
 })

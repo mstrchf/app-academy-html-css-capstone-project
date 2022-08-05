@@ -61,7 +61,7 @@ hr {
 }
 
 .light-gray {
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color: rgb(12, 14, 17);
 }
 
 a {
@@ -234,7 +234,13 @@ section {
   margin-bottom: -15px;
 }
 
-/* mobile */
+/* mobile */  
+
+@media screen and (min-width: 1080px) {
+  .navbar-bottom {
+    display: none;
+  }
+}
 @media screen and (max-width: 1080px) {
   .buttons {
     display: none;
