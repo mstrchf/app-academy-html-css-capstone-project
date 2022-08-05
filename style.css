@@ -30,14 +30,19 @@ img {
 }
 
 .navbar-bottom {
+  position: absolute;
+  top: 6.22em;
   display: none;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1.5em 0;
   gap: .25em;
+  background-color: #000;
   color: white;
   border-top: 1px solid gray;
+  
 }
 
 .navbar-bottom p {
@@ -51,8 +56,8 @@ hr {
   width:50vw;
 }
 
-.hidden {
-  display: none;
+.bottom-nav-shown {
+  display: flex;
 }
 
 .light-gray {
