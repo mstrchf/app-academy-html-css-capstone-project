@@ -210,4 +210,8 @@ section {
   .bx-menu {
     display: block;
   }
+
+  .row {
+    flex-direction: column;
+  }
 }
