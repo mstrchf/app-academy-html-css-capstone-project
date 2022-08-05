@@ -253,4 +253,12 @@ section {
   .row {
     flex-direction: column;
   }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .navbar span {
+    display: none;
+  }
 }
