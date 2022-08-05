@@ -146,9 +146,14 @@ main {
   gap: 4vw;
 }
 
-aside {
+section {
   display: flex;
   flex-direction: column;
+  gap: 5em;
+}
+
+.row {
+  display: flex;
   gap: 5em;
 }
 
@@ -156,10 +161,17 @@ aside {
   display: flex;
   gap: 2em;
   margin-bottom: 2em;
+  flex: 1;
 }
 
 .component-img {
-  width: 12rem;
+  flex: 1;
+  min-width: 70px;
+  /* max-width: 100px; */
+}
+
+.component-text {
+  flex: 4;
 }
 
 .component-text p {
