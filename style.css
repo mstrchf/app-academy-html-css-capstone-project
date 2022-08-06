@@ -42,6 +42,7 @@ img {
   background-color: #000;
   color: white;
   border-top: 1px solid gray;
+  z-index: 5;
   
 }
 
