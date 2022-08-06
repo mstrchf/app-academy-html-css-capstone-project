@@ -1,4 +1,4 @@
-let menu = document.querySelector('.bx-menu')
+let menu = document.querySelector('#icon')
 let navbar = document.querySelector('.navbar')
 let hiddenLinks = document.querySelector('.navbar-bottom')
 
