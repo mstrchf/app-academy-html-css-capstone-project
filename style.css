@@ -15,9 +15,14 @@ img {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   display: flex;
   flex-direction: column;
   background-color: #000;
+  z-index: 5;
+  transition: opacity .2s;
+  /* opacity: 0.5; */
 }
 
 .navbar-top {
@@ -46,7 +51,7 @@ img {
   
 }
 
-.navbar-bottom p {
+.navbar-bottom a {
     padding: 0.5em 0;
     font-size: 1.5em;
     line-height: 1.5;
@@ -55,7 +60,7 @@ img {
     text-align: center;
 }
 
-.navbar-bottom p:first-of-type {
+.navbar-bottom a:first-of-type {
   border-bottom: 1px solid gray;
 }
 
