@@ -8,17 +8,6 @@ menu.addEventListener("click", () => {
   navbar.classList.toggle("light-gray");
 });
 window.addEventListener("scroll", function () {
-  //   const scrollTop = window.scrollY;
-  //   const height = sticky.offsetHeight;
-  //   const offset = height / 2;
-  //   let calc = 1 - (scrollTop - offset + range) / range;
-
-  //   if (calc > 1) {
-  //     navbar.style.opacity = 0;
-  //   } else if (calc < 0) {
-  //     navbar.style.opacity = 0.5;
-  //   }
-
   if (window.scrollY >= navbar.offsetHeight) {
     navbar.style.opacity = "0.5";
   }
