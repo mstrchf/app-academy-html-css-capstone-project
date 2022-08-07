@@ -306,6 +306,7 @@ footer {
   .row {
     flex-direction: column;
   }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -314,12 +315,20 @@ footer {
     letter-spacing: -1px;
     /* font-weight: 500; */
   }
+
+  .navbar-top {
+    padding: 1.075em 4vw;
+    }
 }
 
 @media screen and (max-width: 480px) {
   .navbar span {
     display: none;
   }
+
+  .navbar-top {
+    padding: 1.075em 2vw;
+    }
 
   .content h1 {
     font-size: 2.5em;
