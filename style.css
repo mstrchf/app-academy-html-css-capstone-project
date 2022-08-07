@@ -254,15 +254,35 @@ footer {
   gap: 3em;
 }
 
+.left a:hover {
+  text-decoration: underline;
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;
   margin-top: 1em;
   gap: 0.25em;
+
+  margin-bottom: 2em;
+}
+
+.contact {
+  font-size: 1.25em;
+  margin-bottom: .25em;
 }
 
 .last {
+  font-size: 1.25em;
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: .25em;
+}
+
+.last .bxl-steam {
+  font-size: 2.25em;
+  margin-bottom: .25em;
 }
 
 
